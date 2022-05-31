@@ -1,4 +1,7 @@
+import examples.Hello
+
 object Main extends App {
   val name = ""
-  println(s"Hello $name")
+  val hello = Hello.sayHello(name)
+  println(hello)
 }
